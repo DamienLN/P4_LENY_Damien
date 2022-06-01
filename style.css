@@ -53,7 +53,7 @@ a:hover {
 }
 
 .bloc-sm {
-    padding: 20px 50px;
+    padding: 0;
 }
 
 .bg-center,
@@ -300,13 +300,11 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
-    margin: 0 5px 0 0;
+    
     display: inline;
-}
-
-.navbar-brand img[src$=svg] {
-    min-width: 100px;
+ 
+    height: 100px;
+    width: 100%;
 }
 
 .nav-center .navbar-brand img {
@@ -739,6 +737,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
+    height: 270px;
 }
 
 .portfolio-row {
@@ -1064,4 +1064,43 @@ h4 {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 5%;
     margin: 0 25%;
+}
+
+.footer{
+    font-size: larger;
+}
+.partenaires {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2%;
+    color: #FFFFFF;
+    
+}
+
+
+.partenaire{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.reseaux{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reseaux h2{
+    margin-bottom: 2%;
+}
+.reseau{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 2%;
 }
