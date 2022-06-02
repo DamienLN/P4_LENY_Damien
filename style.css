@@ -1054,3 +1054,43 @@ a {
     border-style: none;
 }
 
+/* formulaire */
+
+.form-1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding-left: 10%;
+    
+}
+
+.form-1 label{
+    padding: 1% 0;
+}
+
+.form-1__name{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-1__mail{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-1__question{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-1__situation{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-1__submit{
+    width: 33%;
+    font-size: larger;
+    border-style: none;
+}
