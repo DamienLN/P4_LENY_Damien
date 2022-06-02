@@ -661,14 +661,6 @@ p {
     font-family: "Open Sans";
 }
 
-.cta-hero {
-    margin-top: 22px;
-    color: #FFFFFF!important;
-    text-transform: uppercase;
-    padding: 12px 28px 12px 28px;
-    font-size: 16px;
-    font-weight: 700;
-}
 
 .social {
     max-width: 400px;
@@ -749,16 +741,6 @@ h4 {
     color: #F3976C!important;
 }
 
-.btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
-    font-size: large;
-}
-
-.btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
-}
 
 .ltc-white {
     color: #FFFFFF!important;
@@ -1050,3 +1032,25 @@ a {
 }
 
 /* Bouttons */
+
+.btn-atomic-tangerine {
+    background: #F3976C;
+    color: black;
+    font-size: large;
+}
+
+.btn-atomic-tangerine:hover {
+    background: #c27956!important;
+    color: black;
+}
+
+.cta-hero {
+    margin-top: 22px;
+    color: black;
+    text-transform: uppercase;
+    padding: 12px 28px 12px 28px;
+    font-size: 16px;
+    font-weight: 700;
+    border-style: none;
+}
+
