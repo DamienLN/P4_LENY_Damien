@@ -1094,3 +1094,18 @@ a {
     font-size: larger;
     border-style: none;
 }
+
+/* description */
+.description{
+    font-size: 22px;
+}
+
+/* citation */
+.citation{
+    font-size: 18px;
+    font-style: italic;
+}
+
+.citation__auteur{
+    font-size: 17px;
+}
