@@ -1115,7 +1115,7 @@ a {
 /* taille des images */
 .portfolio-thumb {
     height: 270px;
-    width: 345px;
+    width: 100%;
     
     margin-bottom: 24px;
 }
